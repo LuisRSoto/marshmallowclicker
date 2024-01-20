@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marshmallow Clicker</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">
+            <div id="clickArea">
+                <h1>Tienda de <span id="nombreTienda">Batatanator</span></h1>
+                <button id="guardar">Guardar</button>
+                <button id="cargar">Cargar</button>
+
+                <button id="cambiarNombre">Cambiar Nombre</button>
+                <h2>
+                    Marshmallows clickeados: <br /><span id="textoContador"
+                        >0</span
+                    >
+                </h2>
+                <h3>Marshmallows por segundo: <br /><span id="mps">0</span></h3>
+                <div class="marshmallowContainer">
+                    <img src="img/marshmallow.png" id="marshmallow" />
+                </div>
+            </div>
+            <div id="shop">
+                <h1>
+                    Tienda de generadores de marshmallows por segundo
+                </h1>
+            </div>
+        </div>
+        <script src="js/game.js"></script>
+        <script src="js/controller.js"></script>
+        <footer>
+            <a href="https://github.com/LuisRSoto" target="_blank" class="social-media" id="profile-link">
+                <i class="ri-github-fill ri-2x"></i>
+                <p>Github</p>
+            </a>
+        </footer>
+    </body>
+</html>
